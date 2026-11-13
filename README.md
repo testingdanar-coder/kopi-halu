@@ -65,16 +65,3 @@ kopi-halu/
 
 ---
 
-## 🎤 Contekan Penjelasan untuk Teman Kelompok saat Ditanya Dosen
-
-1. **Jika Dosen bertanya: "Bagaimana cara kerja navigasi responsif di HP?"**
-   > *Jawaban:* "Di CSS, menu kami sembunyikan dengan `display: none` pada ukuran layar di bawah 650px. Lalu di JavaScript, ketika tombol hamburger diklik, script menambahkan class `active` menggunakan `classList.toggle('active')` sehingga menunya tampil."
-
-2. **Jika Dosen bertanya: "Bagaimana cara kerja form pemesanan WhatsApp?"**
-   > *Jawaban:* "Kami menggunakan `event.preventDefault()` agar formulir tidak me-refresh halaman, lalu mengambil data nama, menu, dan jumlah dari elemen input, menyusunnya ke dalam pesan teks, lalu membukanya menggunakan `window.open()` ke URL API resmi WhatsApp `https://wa.me/`."
-
-3. **Jika Dosen bertanya: "Kenapa tidak pakai framework atau animasi berjalan?"**
-   > *Jawaban:* "Kami fokus menguasai fondasi dasar HTML, CSS Flexbox/Grid, dan Vanilla JavaScript sesuai materi kuliah agar kodenya bersih, cepat diakses, mudah dipelihara, dan sesuai dengan 7 fitur wajib penugasan."
-
-4. **Jika Dosen bertanya: "Bagaimana cara menampilkan titik lokasi pada peta?"**
-   > *Jawaban:* "Kami menggunakan iframe peta interaktif dengan penanda koordinat `marker` yang secara otomatis menandai titik outlet Kopi Halu di Kutabumi, Tangerang, serta menyediakan tombol rute langsung yang terintegrasi ke aplikasi Google Maps resmi."
